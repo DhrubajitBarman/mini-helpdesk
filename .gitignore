@@ -1,0 +1,66 @@
+HELP.md
+
+### Build Artifacts ###
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Maven Wrapper ###
+.mvn/wrapper/maven-wrapper.jar
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.metadata/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+*.log
+logs/
+log/
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Spring Boot ###
+# Don’t commit secrets directly!
+application.properties
+application.yml
+
+# Keep sample config for reference
+!application-sample.properties
+!application-sample.yml
+
+### Test Reports ###
+/surefire-reports/
+/failsafe-reports/
+/test-output/
+/jacoco.exec
+
+### Temporary ###
+/tmp/
+
